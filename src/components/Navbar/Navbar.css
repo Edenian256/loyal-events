@@ -7,18 +7,13 @@
 }
 
 .navbar-logo{
-    color: black;
+    color: rgb(250, 114, 2);
     justify-self: start;
     margin-left: 5px;
     cursor: pointer;
     margin-right: 25px;
 }
 
-.fa-react{
-    margin-left: 0.5rem;
-    font-size: 1.6rem;
-    margin-right: 5rem;
-}
 
 .nav-menu{
     display:grid;
@@ -38,12 +33,12 @@
 }
 
 .nav-links:hover{
-    background-color: cornflowerblue;
+   color:  rgb(236, 63, 0);
     border-radius: 4px;
     transition: all 0.2s ease-out;
 }
 .fa-bars {
-    color: aqua;
+    color:  rgb(236, 63, 0);
 }
 
 .nav-links-mobile{

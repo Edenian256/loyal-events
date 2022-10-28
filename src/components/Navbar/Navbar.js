@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Button } from '../Button'
 import { MenuItems } from "./MenuItems"
 import './Navbar.css'
 
@@ -12,7 +13,7 @@ class Navbar extends Component {
     render(){
         return(
             <nav className="NavbarItems">
-                <h1 className='navbar-logo'>React<i className="fab fa-react"></i></h1>
+                <h1 className='navbar-logo'>LoyalEvents</h1>
                 <div className='menu-icon' onClick = {this.handleClick}>
                 <i className={this.state.clicked ? "fas fa-times": "fa fa-bars"}> </i>
                 </div>
@@ -28,6 +29,7 @@ class Navbar extends Component {
                         )
                     })}
                 </ul>
+                <Button>signup</Button>
             </nav>
         )
     }
